@@ -5,7 +5,7 @@ const logPath = path.join(__dirname, 'error.log');
 
 const logger = {
     error: (message) => {
-        const logMessage = `[${new Date().toISOString()}] ERRO: ${message}\n`;
+        const logMessage = `ERRO: ${message}\n`;
         fs.appendFileSync(logPath, logMessage);
     }
 };
