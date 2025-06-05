@@ -1,2 +1,4 @@
 [2025-06-05T20:46:20.724Z] ERRO: Erro de conexão: ReferenceError: client is not defined
 [2025-06-05T20:46:49.646Z] ERRO: Erro de conexão: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+ERRO: Erro de conexão: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+ERRO: Erro de conexão: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
