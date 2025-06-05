@@ -16,7 +16,7 @@ O objetivo principal é aplicar conceitos de desenvolvimento back-end com Node.j
 A aplicação simula um serviço de microblogging, como o Twitter, e implementa as seguintes funcionalidades principais:
 
 * **Publicação de Postagens:** Criação de novas postagens.
-* **Busca de Postagens:** Pesquisa de postagens por conteúdo de texto ou por autor.
+* **Busca de Postagens:** Pesquisa de postagens.
 * **Exclusão de Postagens:** Remoção de postagens existentes.
 
 O projeto também inclui rotinas para tratamento de erros e verificação de campos obrigatórios, com os erros sendo registrados para análise.
