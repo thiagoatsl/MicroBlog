@@ -16,5 +16,9 @@
     "url": "https://github.com/thiagoatsl/MicroBlog/issues"
   },
   "homepage": "https://github.com/thiagoatsl/MicroBlog#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.15.1"
+  }
 }
