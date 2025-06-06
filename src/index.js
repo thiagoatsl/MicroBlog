@@ -7,9 +7,9 @@ const { createComment, findComments, deleteComment } = require('./services/comme
 async function run() {
     await connectDB();
 
-    const user = await createUser('johndoe', 'john@example.com');
-    const post = await createPost(user._id, 'Meu primeiro post!');
-    const comment = await createComment(post._id, user._id, 'Ótimo post!');
+    const user = await createUser('gugu', 'gugu@gmail.com');
+    const post = await createPost(user._id, 'meu primeiro post!');
+    const comment = await createComment(post._id, user._id, 'parabéns!');
 
     await findUsers();
     await findPosts();
